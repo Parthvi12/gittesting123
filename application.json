@@ -1,15 +1,25 @@
 {
+  "pages": [
+    {
+      "id": "Page1",
+      "isDefault": true
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
+    }
+  ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#E4D8CC",
   "icon": "steam-bowl",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 1,
   "isManualUpdate": false,
-  "createdAt": {
-    "seconds": 1648389678,
-    "nanos": 169000000
-  },
   "deleted": false
 }
