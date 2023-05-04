@@ -1,10 +1,6 @@
 {
   "pages": [
     {
-      "id": "Page12",
-      "isDefault": true
-    },
-    {
       "id": "Page2",
       "isDefault": false
     }
