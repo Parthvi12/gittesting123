@@ -29,7 +29,7 @@
             {
               "boxShadow": "none",
               "widgetName": "Button1",
-              "buttonColor": "#03B365",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca02633.svg",
               "topRow": 21,
@@ -39,7 +39,16 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
               "leftColumn": 14,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
               "text": "Submit",
               "isDisabled": false,
               "key": "eto1tipk1x",
@@ -53,7 +62,7 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "borderRadius": "0px",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "buttonVariant": "PRIMARY",
               "placement": "CENTER"
             },
@@ -144,7 +153,7 @@
             {
               "boxShadow": "none",
               "widgetName": "Button2",
-              "buttonColor": "#03B365",
+              "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca02633.svg",
               "topRow": 8,
@@ -154,7 +163,13 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 12.5625,
+              "dynamicTriggerPathList": [],
               "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "buttonColor"
+                }
+              ],
               "text": "Submit",
               "isDisabled": false,
               "key": "85kaur1gp5",
